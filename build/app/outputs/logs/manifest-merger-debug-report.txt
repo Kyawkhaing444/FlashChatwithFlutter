@@ -1,0 +1,484 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/aa13abeef9d684f7a2c3fcebac6712cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.0.aar/5a75852ce4496c186935a747a5a096bb/AndroidManifest.xml:2:1-9:12
+MERGED from [:firebase_auth] /home/kyaw/development/flash-chat-flutter-master/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] /home/kyaw/development/flash-chat-flutter-master/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /home/kyaw/development/flash-chat-flutter-master/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.0.aar/1546be7a40c931191ad0819ba901e572/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:2:1-24:12
+MERGED from [io.grpc:grpc-android:1.16.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/8fc2e3a072be08dce7f965c27ac428e7/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.0.aar/815b2190b6c8a38bb97455f9ccb2cd03/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.0.aar/cf428c619230156035151a5ecca75960/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/371a95aed6960e57ef3ba2b9a28dfdb6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-17.0.0.aar/e3db93e34431393210ad4d3c51f1c0f9/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/6ec103a6dd46ff31985efced68577af9/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/c4f2ee21a87a50514bba182d9c80fa75/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/cb0aa9cb8e8d4f23022e29cfddee8ffa/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03c4685f51a401463c915a645e829a9a/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/51b94f500abb654f23b828584562623a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/24a2e60b1848979b1c1b6272082a0947/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/a59f111c7270d5f754d972de1021a522/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/7438f0a11311de2a9a09e47a2673e3f5/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/bfa15fdca0bae1c13e339d85d0a70038/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/32c11026bd4e49f0f2d21827d225e3df/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/6eecf517681965ce98b98bb879be6a32/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1bb58deb6e3a1fc9dab4daad3ffa333d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/0dfb3c5d71b5d5d5375c411c06b8d1d3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/68ae0da23cb3529b44a21f440494da51/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/154b67492cf136ae8d4b6d8395a69e86/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/f5d81a39197cb490c8aa9fa4d9fed5b9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/79f541bfe8fddf963938aed8b8e4b587/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/807fd405561a1944218f730f5325f032/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/f7afa8f31407ff1221bdeac64cc2335d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/38590fc7f04be9d6e84e0f243c864c9b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/aa09cd5d6a3fa06f49933783a65cfb10/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/8550080411966cbef7af093c85b7098e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/0d1bb08b3438bfa009d4ad1171bdc513/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c0f3eb2c2ff247c7d83153a0e40ebe8a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/741b8b916573cbfc18e76f7e192aab99/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/bac8d0dfb65bbe7d098b93b633fab4c8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/5becb7b0c1e525244e4ccbc76c3842ca/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/97dbd757ff5d45c9da369dfeae6138f2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b7e19a6b5a20a425091fd4a90def99fa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/fd184598118672b587c810470468e449/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/d9199056d0bfd888062e4db09fe5d90d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/1a52a71b00d8dcbfee009f8a51df238d/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/0c9e56fd3e42bed5ad986559d383d4d4/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:9:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.0.aar/5a75852ce4496c186935a747a5a096bb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.0.aar/5a75852ce4496c186935a747a5a096bb/AndroidManifest.xml:7:5-20
+MERGED from [:firebase_auth] /home/kyaw/development/flash-chat-flutter-master/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /home/kyaw/development/flash-chat-flutter-master/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/kyaw/development/flash-chat-flutter-master/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/kyaw/development/flash-chat-flutter-master/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/kyaw/development/flash-chat-flutter-master/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/kyaw/development/flash-chat-flutter-master/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.0.aar/1546be7a40c931191ad0819ba901e572/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.0.aar/1546be7a40c931191ad0819ba901e572/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.0.aar/cf428c619230156035151a5ecca75960/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.0.aar/cf428c619230156035151a5ecca75960/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/371a95aed6960e57ef3ba2b9a28dfdb6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/371a95aed6960e57ef3ba2b9a28dfdb6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-17.0.0.aar/e3db93e34431393210ad4d3c51f1c0f9/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-17.0.0.aar/e3db93e34431393210ad4d3c51f1c0f9/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/6ec103a6dd46ff31985efced68577af9/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/6ec103a6dd46ff31985efced68577af9/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/cb0aa9cb8e8d4f23022e29cfddee8ffa/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/cb0aa9cb8e8d4f23022e29cfddee8ffa/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03c4685f51a401463c915a645e829a9a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03c4685f51a401463c915a645e829a9a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/51b94f500abb654f23b828584562623a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/51b94f500abb654f23b828584562623a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/24a2e60b1848979b1c1b6272082a0947/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/24a2e60b1848979b1c1b6272082a0947/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/a59f111c7270d5f754d972de1021a522/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/a59f111c7270d5f754d972de1021a522/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/7438f0a11311de2a9a09e47a2673e3f5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/7438f0a11311de2a9a09e47a2673e3f5/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/38590fc7f04be9d6e84e0f243c864c9b/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/38590fc7f04be9d6e84e0f243c864c9b/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/aa09cd5d6a3fa06f49933783a65cfb10/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/aa09cd5d6a3fa06f49933783a65cfb10/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/38590fc7f04be9d6e84e0f243c864c9b/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:12:9-43
+	android:name
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:10:9-57
+activity#co.appbrewery.flash_chat.MainActivity
+ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:13:9-31:20
+	android:launchMode
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:19:13-55
+	android:configChanges
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:17:13-144
+	android:theme
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:14:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:24:13-26:40
+	android:value
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:26:17-37
+	android:name
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:25:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/aa13abeef9d684f7a2c3fcebac6712cf/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/aa13abeef9d684f7a2c3fcebac6712cf/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.0.aar/5a75852ce4496c186935a747a5a096bb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.0.aar/5a75852ce4496c186935a747a5a096bb/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /home/kyaw/development/flash-chat-flutter-master/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /home/kyaw/development/flash-chat-flutter-master/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/kyaw/development/flash-chat-flutter-master/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/kyaw/development/flash-chat-flutter-master/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/kyaw/development/flash-chat-flutter-master/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/kyaw/development/flash-chat-flutter-master/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.0.aar/1546be7a40c931191ad0819ba901e572/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.0.aar/1546be7a40c931191ad0819ba901e572/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/8fc2e3a072be08dce7f965c27ac428e7/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/8fc2e3a072be08dce7f965c27ac428e7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.0.aar/815b2190b6c8a38bb97455f9ccb2cd03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.0.aar/815b2190b6c8a38bb97455f9ccb2cd03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.0.aar/cf428c619230156035151a5ecca75960/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.0.aar/cf428c619230156035151a5ecca75960/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/371a95aed6960e57ef3ba2b9a28dfdb6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/371a95aed6960e57ef3ba2b9a28dfdb6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-17.0.0.aar/e3db93e34431393210ad4d3c51f1c0f9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-17.0.0.aar/e3db93e34431393210ad4d3c51f1c0f9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/6ec103a6dd46ff31985efced68577af9/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/6ec103a6dd46ff31985efced68577af9/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/c4f2ee21a87a50514bba182d9c80fa75/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/c4f2ee21a87a50514bba182d9c80fa75/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/cb0aa9cb8e8d4f23022e29cfddee8ffa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/cb0aa9cb8e8d4f23022e29cfddee8ffa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03c4685f51a401463c915a645e829a9a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03c4685f51a401463c915a645e829a9a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/51b94f500abb654f23b828584562623a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/51b94f500abb654f23b828584562623a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/24a2e60b1848979b1c1b6272082a0947/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/24a2e60b1848979b1c1b6272082a0947/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/a59f111c7270d5f754d972de1021a522/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/a59f111c7270d5f754d972de1021a522/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/7438f0a11311de2a9a09e47a2673e3f5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/7438f0a11311de2a9a09e47a2673e3f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/bfa15fdca0bae1c13e339d85d0a70038/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/bfa15fdca0bae1c13e339d85d0a70038/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/32c11026bd4e49f0f2d21827d225e3df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/32c11026bd4e49f0f2d21827d225e3df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/6eecf517681965ce98b98bb879be6a32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/6eecf517681965ce98b98bb879be6a32/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1bb58deb6e3a1fc9dab4daad3ffa333d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1bb58deb6e3a1fc9dab4daad3ffa333d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/0dfb3c5d71b5d5d5375c411c06b8d1d3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/0dfb3c5d71b5d5d5375c411c06b8d1d3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/68ae0da23cb3529b44a21f440494da51/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/68ae0da23cb3529b44a21f440494da51/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/154b67492cf136ae8d4b6d8395a69e86/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/154b67492cf136ae8d4b6d8395a69e86/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/f5d81a39197cb490c8aa9fa4d9fed5b9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/f5d81a39197cb490c8aa9fa4d9fed5b9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/79f541bfe8fddf963938aed8b8e4b587/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/79f541bfe8fddf963938aed8b8e4b587/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/807fd405561a1944218f730f5325f032/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/807fd405561a1944218f730f5325f032/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/f7afa8f31407ff1221bdeac64cc2335d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/f7afa8f31407ff1221bdeac64cc2335d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/38590fc7f04be9d6e84e0f243c864c9b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/38590fc7f04be9d6e84e0f243c864c9b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/aa09cd5d6a3fa06f49933783a65cfb10/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/aa09cd5d6a3fa06f49933783a65cfb10/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/8550080411966cbef7af093c85b7098e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/8550080411966cbef7af093c85b7098e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/0d1bb08b3438bfa009d4ad1171bdc513/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/0d1bb08b3438bfa009d4ad1171bdc513/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c0f3eb2c2ff247c7d83153a0e40ebe8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c0f3eb2c2ff247c7d83153a0e40ebe8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/741b8b916573cbfc18e76f7e192aab99/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/741b8b916573cbfc18e76f7e192aab99/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/bac8d0dfb65bbe7d098b93b633fab4c8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/bac8d0dfb65bbe7d098b93b633fab4c8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/5becb7b0c1e525244e4ccbc76c3842ca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/5becb7b0c1e525244e4ccbc76c3842ca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/97dbd757ff5d45c9da369dfeae6138f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/97dbd757ff5d45c9da369dfeae6138f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b7e19a6b5a20a425091fd4a90def99fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/b7e19a6b5a20a425091fd4a90def99fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/fd184598118672b587c810470468e449/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/fd184598118672b587c810470468e449/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/d9199056d0bfd888062e4db09fe5d90d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/d9199056d0bfd888062e4db09fe5d90d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/1a52a71b00d8dcbfee009f8a51df238d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/1a52a71b00d8dcbfee009f8a51df238d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/0c9e56fd3e42bed5ad986559d383d4d4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/0c9e56fd3e42bed5ad986559d383d4d4/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.0.aar/815b2190b6c8a38bb97455f9ccb2cd03/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.0.aar/815b2190b6c8a38bb97455f9ccb2cd03/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/kyaw/development/flash-chat-flutter-master/android/app/src/debug/AndroidManifest.xml:6:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] /home/kyaw/development/flash-chat-flutter-master/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/kyaw/development/flash-chat-flutter-master/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/kyaw/development/flash-chat-flutter-master/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/kyaw/development/flash-chat-flutter-master/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/kyaw/development/flash-chat-flutter-master/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:17:9-21:19
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:17:9-21:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [:firebase_auth] /home/kyaw/development/flash-chat-flutter-master/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_auth] /home/kyaw/development/flash-chat-flutter-master/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /home/kyaw/development/flash-chat-flutter-master/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /home/kyaw/development/flash-chat-flutter-master/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:17-122
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
+ADDED from [:cloud_firestore] /home/kyaw/development/flash-chat-flutter-master/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /home/kyaw/development/flash-chat-flutter-master/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /home/kyaw/development/flash-chat-flutter-master/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:17-133
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_core] /home/kyaw/development/flash-chat-flutter-master/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /home/kyaw/development/flash-chat-flutter-master/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /home/kyaw/development/flash-chat-flutter-master/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:17-123
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/8fc2e3a072be08dce7f965c27ac428e7/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /home/kyaw/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/8fc2e3a072be08dce7f965c27ac428e7/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.0.aar/815b2190b6c8a38bb97455f9ccb2cd03/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.0.aar/815b2190b6c8a38bb97455f9ccb2cd03/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.0.aar/815b2190b6c8a38bb97455f9ccb2cd03/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.0.aar/815b2190b6c8a38bb97455f9ccb2cd03/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.0.aar/24c9b6d03e076a181bdeeb4c105edbe2/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.0.aar/f66ef273c7e15ff6af4aa223ef24d9ec/AndroidManifest.xml:49:13-87
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.0.aar/f0cb3b4d29a44c0a085d53286bd45a27/AndroidManifest.xml:31:17-139
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-17.0.0.aar/25a6be0f48ac00dd1dae2b1f83d7a2aa/AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-19.0.0.aar/b9cd4907fcf8391a51a601f2e740650d/AndroidManifest.xml:19:17-111
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/cb3252d9071d5a9f500f2ea83832aabd/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/6ec103a6dd46ff31985efced68577af9/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/6ec103a6dd46ff31985efced68577af9/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/6ec103a6dd46ff31985efced68577af9/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/6ec103a6dd46ff31985efced68577af9/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/firebase-common-19.0.0.aar/6ec103a6dd46ff31985efced68577af9/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03c4685f51a401463c915a645e829a9a/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03c4685f51a401463c915a645e829a9a/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03c4685f51a401463c915a645e829a9a/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03c4685f51a401463c915a645e829a9a/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/7438f0a11311de2a9a09e47a2673e3f5/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/7438f0a11311de2a9a09e47a2673e3f5/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/kyaw/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/7438f0a11311de2a9a09e47a2673e3f5/AndroidManifest.xml:24:13-58
